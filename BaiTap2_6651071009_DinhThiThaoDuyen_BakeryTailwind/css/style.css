@@ -1,0 +1,27 @@
+/*
+  style.css - CSS BỔ SUNG cho những phần Tailwind chưa hỗ trợ sẵn.
+  Tailwind đã lo gần như toàn bộ giao diện qua utility-class,
+  nên file này chỉ thêm vài hiệu ứng nhỏ mang tính "tùy biến riêng".
+*/
+
+/* 1. Cuộn mượt khi bấm vào menu điều hướng (#hero, #menu...) */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 2. Hiệu ứng xuất hiện nhẹ cho các card menu khi tải trang
+      (Tailwind CDN không kèm sẵn keyframes tùy biến này) */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+article {
+  animation: fadeInUp 0.5s ease-out;
+}

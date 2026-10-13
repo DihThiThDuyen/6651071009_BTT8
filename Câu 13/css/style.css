@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:300,400|Oswald:400,700');
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "Segoe UI", Arial, sans-serif;
+}
+
+html,body{
+width: 100%;
+height: 100%;
+background: #f1f1f1;
+padding: 40px 16px;
+}
+
+/***************/
+
+.password-show-card{
+	position: relative;
+	max-width: 400px;
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+.password-show-card .input-control{
+	width: 100%;
+	height: 42px;
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 6px 40px 6px 12px;
+	font-size: 14px;
+	color: #333333;
+}
+
+.password-show-card .input-control:focus{
+border: 1px solid #04AA6D;
+outline: none;
+}
+
+.password-show-card .password-show{
+position: absolute;
+top: 32px;
+right: 32px;
+cursor: pointer;
+color: #777;
+}
+
+.password-show-card .password-show:hover{
+color: #04AA6D;
+}
+
+
+
+

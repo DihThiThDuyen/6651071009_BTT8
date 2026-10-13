@@ -1,0 +1,19 @@
+/*
+  style.css - CSS bổ sung cho phần Tailwind chưa lo sẵn.
+  Trọng tâm bài là Vue, nên file này chỉ thêm vài tinh chỉnh nhỏ.
+*/
+
+/* Cuộn mượt khi bấm menu điều hướng */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hiệu ứng xuất hiện nhẹ cho card sản phẩm */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+article {
+  animation: fadeIn 0.4s ease-out;
+}

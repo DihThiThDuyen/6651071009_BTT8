@@ -1,0 +1,75 @@
+* { padding: 0; margin: 0; box-sizing: border-box }
+
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+	padding: 40px 16px;
+	background: #f1f1f1;
+	color: #000;
+}
+
+h4 {
+	text-align: center;
+	margin-bottom: 25px;
+	font-weight: normal;
+	font-size: 22px;
+}
+
+.checkbox-card {
+	border: 1px solid #ccc;
+	padding: 20px;
+	max-width: 480px;
+	margin: 0 auto 16px;
+	background: #fff;
+}
+
+.checkbox-card > label {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.checkbox {
+	margin-bottom: 12px;
+}
+
+.checkbox label {
+	cursor: pointer;
+	color: #333;
+}
+
+.checkme {
+	margin-right: 6px;
+	cursor: pointer;
+}
+
+.passport-box {
+	display: none;
+}
+
+.passport-box .form-control {
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 10px 12px;
+}
+
+.passport-box .form-control:focus {
+	border-color: #04AA6D;
+	outline: none;
+}
+
+.apply-box {
+	margin-top: 10px;
+	display: none;
+}
+
+.apply-box a {
+	display: inline-block;
+	background: #04AA6D;
+	color: #fff;
+	text-decoration: none;
+	padding: 8px 18px;
+}
+
+.apply-box a:hover {
+	background: #059862;
+}

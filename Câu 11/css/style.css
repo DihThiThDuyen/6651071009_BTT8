@@ -1,0 +1,52 @@
+* { padding: 0; margin: 0; box-sizing: border-box }
+
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+	padding: 40px 16px;
+	background: #f1f1f1;
+	color: #000;
+}
+
+.text-center {
+	text-align: center;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+
+.custom-file-wrp {
+	display: flex;
+	align-items: center;
+	max-width: 600px;
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+.filename {
+	flex: 1;
+	padding: 12px 14px;
+	border: 1px solid #ccc;
+	margin-right: 12px;
+	color: #555;
+	word-break: break-word;
+	overflow-wrap: break-word;
+}
+
+.custom-file input[type="file"] {
+	display: none;
+}
+
+.custom-file label {
+	cursor: pointer;
+	background: #04AA6D;
+	display: inline-block;
+	color: #fff;
+	padding: 12px 24px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.custom-file label:hover {
+	background: #059862;
+}
