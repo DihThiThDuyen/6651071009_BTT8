@@ -8,10 +8,10 @@
   <meta name="description" content="Shop phụ kiện điện thoại mini - giỏ hàng động xây dựng bằng Vue.js 3." />
   <title>TechMini | Shop phụ kiện điện thoại</title>
 
-  <!-- ===== Google Fonts: Montserrat (tiêu đề) + Lora (thân bài) ===== -->
+  <!-- ===== Google Fonts: Inter (tiêu đề - Bold) + Be Vietnam Pro (thân bài) ===== -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Inter:wght@600;700;800&display=swap" rel="stylesheet" />
 
   <!-- CSS Framework hỗ trợ trình bày: Tailwind Play CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -22,8 +22,8 @@
       theme: {
         extend: {
           fontFamily: {
-            sans: ['"Lora"', 'serif'],
-            display: ['"Montserrat"', 'sans-serif'],
+            sans: ['"Be Vietnam Pro"', 'sans-serif'],
+            display: ['"Inter"', 'sans-serif'],
           },
         },
       },
@@ -44,8 +44,11 @@
     <!-- ===================== HEADER + NAVIGATION ================= -->
     <header class="bg-white shadow sticky top-0 z-50">
       <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <!-- Tên shop (tĩnh) -->
-        <a href="#" class="font-display text-2xl font-bold text-blue-600">Tech<span class="text-slate-800">Mini</span></a>
+        <!-- Tên shop + logo (tĩnh) -->
+        <a href="#" class="flex items-center gap-2 font-display text-2xl font-bold text-blue-600">
+          <img src="../images/logo.svg" alt="Logo TechMini" class="w-9 h-9" />
+          Tech<span class="text-slate-800">Mini</span>
+        </a>
 
         <!-- Menu tĩnh -->
         <ul class="hidden md:flex gap-8 font-medium">
